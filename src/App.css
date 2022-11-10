@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 0px 50px 0px 50px;
 }
 
 .App-logo {
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* 
+.App-foods {
+  text-align: left;
+}
+.App-foods img {
+  width: 150px;
+  margin-left: 30px;
+  padding: 0px;
+}
+.App-foods p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: left;
+} */
+
+.App-foodsGlobal-03 {
+  /* width: 95%; */
+  text-align: center;
+}
+.App-foodsTitulo-03 {
+  font-weight: bold;
+  text-align: center;
+  /* width: 450px; */
+  font-size: 20px;
+}
+.App-foodsLista-03 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  /* width: 90%; */
+  /* margin: 0px 50px 0px 50px; */
 }
